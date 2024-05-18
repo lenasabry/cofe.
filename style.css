@@ -1,0 +1,210 @@
+
+*{ 
+  box-sizing: border-box;
+}
+header
+{
+  border: solid white;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  width: 99%;
+  padding: 1%;
+  position: fixed;
+  box-sizing: border-box;
+  z-index: 999;
+  transition: all 10s
+}
+header a {
+  text-decoration: none;
+  color: white
+}
+header a :hover{
+  color: rgb(233, 138, 23)
+}
+h1{
+  color: white;
+  border-bottom: dashed  brown;
+  width: 20%;
+}
+main h2 {
+  color: beige
+}
+table {
+ background-color: rgb(31, 31, 31);
+ padding-left: 2%;
+ padding-right: 2%;
+ width: 120%;
+}
+table h3 {
+  color: white
+}
+table span {
+  color: brown;
+}
+table p {
+  color: rgb(233, 138, 23);
+}
+section{
+  background-image: url(images/06.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 4%;
+  padding-bottom: 40%;
+  justify-content: left;
+  border: solid white;
+  background-blend-mode:overlay ;
+  background-color:rgb(247, 191, 123 ,0.2);
+}
+div div1 img {
+  width: 200px
+}
+main div div:hover{ 
+  box-shadow: 10px 10px 10px  rgb(245, 164, 64);
+  transition: all 1s;
+  transform: scale(1.15);
+
+}
+footer{
+  border: solid white;
+  text-align: right 50%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+footer a {
+  color: rgb(128, 128, 128); text-decoration: none
+}
+footer a :hover{
+  color: rgb(61, 61, 61) ;text-decoration:underline
+  ;transition: all 2s;
+}
+footer h3{
+  color: rgb(100, 100, 100)
+}
+footer div1 i{
+  font-size: 20px;
+}
+footer div2 a {
+  color: white; text-decoration: none
+}
+footer div2 i {
+  color: white;
+}
+footer div2 b {
+  color: white;
+}
+#mn{
+  text-align: center
+}
+footer div2 {
+  width: 48%; padding-top: 5%
+}
+.all{
+  width: 97%; background-color: rgb(31, 31, 31)
+}
+.b {
+  border: solid white;
+}
+section div h1{
+  margin-left: 60%; color: beige
+}
+section div span{
+  color: rgb(233, 138, 23)
+}
+section div p{
+  margin-left: 70%; color: beige
+}
+.card{  
+  border: solid rgb(233, 138, 23);
+  background-color: white;
+  border-radius: 20%;
+  width: 23%;
+}
+form {
+  border: dashed beige;
+  box-shadow: black;
+  background-color: rgb(0, 0, 0);
+  width: 40%;
+  padding-right: 5%;
+  padding-left: 5%;
+  box-shadow: 10px 10px 20px rgb(233, 138, 23);
+  border-radius: 15%;
+}
+.box{
+  border: 0.75px solid; padding: 3px; border-radius: 7%
+}
+.boxy{
+  width: 94%;
+  border: 0.75px solid;
+  padding: 3px;
+  border-radius: 7%;
+}
+label{
+  margin: right 5px;
+  padding: 3px;
+  border-radius: 7%;
+  width: 30%;
+  align-items: center;
+  color: rgb(187, 187, 187);
+}
+.date {
+  border: 0.75px solid;
+  align-items: center;
+  border-radius: 7%;
+  width: 65%;
+  padding: 3px;
+}
+.divy{
+  display: flex;
+  justify-content: space-around;
+}
+.divys{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+main{
+  width: 100%; background-color: rgb(31, 31, 31)
+  ;border: solid white; padding-top: 2%; padding-bottom: 2%
+}
+form h1 {
+  border: dashed;
+  width: 40%;
+  border-radius: 15%;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 20px  rgb(233, 138, 23);
+  padding: 1% 2%;
+}
+.button{
+  background-color: rgb(180, 133, 46);
+  border-radius: 15%;
+  padding: 5px;
+  color: silver;
+  border:solid 0.5px white;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #CCCCCC;
+} 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(233, 138, 23); 
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: bisque;
+}
+.animation{
+    visibility: visible;
+    animation-delay: 1s;  
+    animation-name: rollIn;
+}
+.animation1{
+  visibility: visible;
+  animation-delay: 0.5s;
+  animation-name: rollIn;
+}
